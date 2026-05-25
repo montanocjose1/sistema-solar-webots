@@ -1,2 +1,3 @@
-worlds:
-  - worlds/solar.wbt
+description: Sistema Solar en Webots
+file: worlds/solar.wbt
+type: demo
