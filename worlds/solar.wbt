@@ -1,0 +1,191 @@
+#VRML_SIM R2023b utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackground.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation 0.006249885673546982 -0.0044570018578196915 0.9999705365977074 1.902648608751731
+  position 49.92920806315923 -153.89571491131588 -0.6020127819106446
+}
+TexturedBackground {
+  texture "noon_sunny_empty"
+}
+PointLight {
+  attenuation 0 0 1
+  intensity 8
+  castShadows TRUE
+}
+Robot {
+  rotation 0 1 0 -1.832594300467015
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 1 0.8 0
+          emissiveColor 1 0.5 0
+        }
+      }
+      geometry Sphere {
+        radius 3
+      }
+    }
+  ]
+  name "sol"
+  controller "solar_controller"
+  supervisor TRUE
+}
+Robot {
+  translation -1.5532994617492992 0 5.795451732361278
+  rotation 0 1 0 -1.0471918946883036
+  children [
+    Shape {
+      geometry Sphere {
+        radius 0.3
+      }
+    }
+  ]
+  name "mercurio"
+  controller "solar_controller"
+  supervisor TRUE
+}
+Robot {
+  translation 2.3298016436165563 0 -8.693217143348116
+  rotation 0 1 0 2.617996706245478
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.9 0.7 0.2
+          emissiveColor 0.9 0.7 0.2
+        }
+      }
+      geometry Sphere {
+        radius 0.6
+      }
+    }
+  ]
+  name "venus"
+  controller "solar_controller"
+  supervisor TRUE
+}
+Robot {
+  translation 6.499681608217481 0 11.258514066776282
+  rotation 0 1 0 0.5236129157602178
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.1 0.4 0.9
+          emissiveColor 0.1 0.4 0.9
+        }
+      }
+      geometry Sphere {
+        radius 0.7
+      }
+    }
+  ]
+  name "tierra"
+  controller "solar_controller"
+  supervisor TRUE
+}
+Robot {
+  translation -12.020560289834668 0 -12.021070265099109
+  rotation 0 1 0 2.3562072175592874
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.8 0.2 0.1
+          emissiveColor 0.8 0.2 0.1
+        }
+      }
+      geometry Sphere {
+        radius 0.4
+      }
+    }
+  ]
+  name "marte"
+  controller "solar_controller"
+  supervisor TRUE
+}
+Robot {
+  translation -11.999764862601992 0 -20.78474544569316
+  rotation 0 1 0 -1.8325603591447148
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.8 0.6 0.4
+          emissiveColor 0.8 0.2 0.1
+        }
+      }
+      geometry Sphere {
+        radius 1.8
+      }
+    }
+  ]
+  name "jupiter"
+  controller "solar_controller"
+  supervisor TRUE
+}
+Robot {
+  translation -0.00027146441752858236 0 31.999999998848548
+  rotation 0 1 0 -2.6179627698379377
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.9 0.8 0.5
+          emissiveColor 0.8 0.8 0.5
+        }
+      }
+      geometry Sphere {
+        radius 1.5
+      }
+    }
+  ]
+  name "saturno"
+  controller "solar_controller"
+  supervisor TRUE
+}
+Robot {
+  translation 8.660183336178344 0 5.000122456878323
+  rotation 0 1 0 0.5236129157602178
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.5 0.8 0.9
+          emissiveColor 0.5 0.8 0.9
+        }
+      }
+      geometry Sphere {
+        radius 1.2
+      }
+    }
+  ]
+  name "URANO"
+  controller "solar_controller"
+  supervisor TRUE
+}
+Robot {
+  translation 33.94098153090109 0 33.94126946239682
+  rotation 0 1 0 -2.3561732780144453
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.2 0.3 0.9
+          emissiveColor 0.2 0.3 0.9
+        }
+      }
+      geometry Sphere {
+        radius 1.1
+      }
+    }
+  ]
+  name "neptuno"
+  controller "solar_controller"
+  supervisor TRUE
+}
